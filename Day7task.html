@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+
+  <body>
+    <fieldset>
+      <legend>Full Stak Developer Application Form</legend>
+
+      <center>
+        <form action="./result.html">
+          <h2>
+            Please complete the form below to apply for a position with us.
+          </h2>
+          <br /><br />
+          <label for="name">Name:</label>
+          <input
+            type="text"
+            maxlength="20"
+            minlength="4"
+            placeholder="Name Here"
+            required
+          />
+          <br /><br />
+          <label for="fname">Email:</label
+          ><input type="email" placeholder="Email here" required id="fname" />
+          <br /><br />
+          <label for="password">Password:</label
+          ><input
+            type="password"
+            placeholder="Password here"
+            required
+            id="password"
+          />
+          <br />
+          <br />
+          <label for="password1">Confirm Password:</label>
+          <input
+            type="password"
+            placeholder="Password here"
+            required
+            id="password1"
+          />
+          <br />
+          <br />
+
+          <label>Male:</label> <input type="radio" name="js" required />
+          <label>Female:</label><input type="radio" name="js" required />
+          <br /><br />
+          <label for="Date">Date of Birth:</label>
+          <input type="Date" id="Date" required /> <br />
+          <br />
+
+          <label> Willing To Join In:</label>
+
+          <select required>
+            <option value="15Days">15Days</option>
+            <option value="1mon">1Mon</option>
+            <option value="2Mon">2Mon</option>
+            <option value="3Mon">3Mon</option>
+          </select>
+          <br /><br />
+
+          <label>Applying For:</label>
+
+          <select required>
+            <option value="Web Developer" disabled>Web Developer</option>
+            <option value="Full Stack Developer" selected>
+              Full Stack Developer
+            </option>
+            <option value="Analyst" disabled>Analyst</option>
+            <option value="Application Developer" disabled>
+              Application Developer
+            </option>
+          </select>
+          <br /><br />
+          <label for="photo">Upload profile Picture:</label>
+          <input type="file" id="photo" required /> <br />
+          <br />
+          <label for="resume">Upload Resume:</label>
+          <input type="file" id="resume" required /> <br />
+          <br />
+
+          <button type="submit">Submit</button>
+        </form>
+      </center>
+    </fieldset>
+
+    <!--task:2 create a full stack developer application form and validate the form with maxlength, minlength, min, max, required, selected, disabled, multiple, name, placeholder, value etc..-->
+  </body>
+</html>
